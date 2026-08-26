@@ -66,14 +66,6 @@ strong{font-weight:600;color:var(--paper)}
 .muted{color:var(--sand)}
 .section--paper .muted{color:#7a7368}
 
-/* endereço — assinatura: tudo no Cérebro tem endereço fixo */
-.addr{
-  font-family:var(--body);font-size:.72rem;font-weight:600;
-  letter-spacing:.16em;text-transform:uppercase;color:var(--red);
-  display:inline-flex;align-items:center;gap:10px;
-}
-.addr::before{content:"";width:24px;height:1px;background:currentColor;flex:none}
-
 /* ---------- botões ---------- */
 .btn{
   display:inline-flex;align-items:center;justify-content:center;gap:12px;
