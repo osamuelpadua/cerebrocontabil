@@ -269,7 +269,7 @@ strong{font-weight:600;color:var(--paper)}
 
 /* ---------- autores ---------- */
 .author{background:#fff;border:1px solid rgba(22,22,22,.1);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column}
-.author__img{aspect-ratio:4/5;width:100%;object-fit:cover;object-position:center 18%;filter:saturate(.92) contrast(1.02);transition:transform .8s var(--ease)}
+.author__img{aspect-ratio:4/5;width:100%;height:auto;object-fit:cover;object-position:center 18%;filter:saturate(.92) contrast(1.02);transition:transform .8s var(--ease)}
 .author:hover .author__img{transform:scale(1.03)}
 .author__body{padding:var(--s4) 32px}
 .author__name{font-family:var(--display);font-weight:800;font-size:1.32rem;letter-spacing:-.028em;color:var(--ink);margin:0 0 6px}
@@ -293,7 +293,7 @@ strong{font-weight:600;color:var(--paper)}
   position:relative;transition:transform .4s var(--ease),border-color .4s var(--ease);
 }
 .proof__btn:hover{transform:translateY(-5px);border-color:rgba(246,246,244,.3)}
-.proof__img{width:100%;aspect-ratio:9/12;object-fit:cover;object-position:center top;display:block}
+.proof__img{width:100%;height:auto;aspect-ratio:9/12;object-fit:cover;object-position:center top;display:block}
 .proof__btn::after{
   content:"Ampliar";position:absolute;left:12px;bottom:12px;
   font-family:var(--body);font-size:.68rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
