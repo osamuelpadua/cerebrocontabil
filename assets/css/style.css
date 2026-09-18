@@ -348,6 +348,8 @@ strong{font-weight:600;color:var(--paper)}
 .offer__list li::before{content:"";position:absolute;left:2px;top:26px;width:14px;height:2px;background:var(--gold)}
 .price{text-align:center;display:flex;flex-direction:column;gap:var(--s3)}
 .price__label{font-size:.74rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.price__from{font-size:clamp(1.1rem,3vw,1.4rem);font-weight:500;color:#e0d5c8}
+.price__from s{font-family:var(--display);font-weight:700;font-size:1.35em;color:#fff;opacity:.6;text-decoration-color:var(--red);text-decoration-thickness:3px;margin:0 .15em}
 .price__value{font-family:var(--display);font-weight:800;font-size:clamp(3.4rem,11vw,6.5rem);line-height:.9;letter-spacing:-.055em;color:#fff;display:block}
 .price__value span{font-size:.38em;vertical-align:1.4em;margin-right:.08em;letter-spacing:-.03em}
 .price__after{font-size:.98rem;color:#e0d5c8;max-width:50ch;margin:0 auto;line-height:1.6}
